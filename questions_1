@@ -1,0 +1,53 @@
+1. whats the differenec for the below codes
+
+k=[1,2,3,4,5,6,9]
+out=[]
+for x in k:
+     out.append(x**2)
+print(out)
+
+k=[1,2,3,4,5,6,9]
+out=[]
+for x in k:
+     out.append(x**2)
+     print(out)
+
+
+2.Whats the difference between 
+ 
+ Print   and result in Function ?
+ 
+ Print just display
+ return store the resulst in variable 
+ 
+ 
+ 3.s="Hi there is Shiju" .Split this word.
+
+ s.split()
+ 
+ 4.passing ajshiju@gmail.com would return gmail.com.  ?
+ 
+ def domain_get(email):
+     return email.split('@')[-1]
+     
+ domain_get('ajshiju@gmail.com')
+ 
+ 
+ 
+ 5.def a funtcion and accept  the string and take the count of dog
+ 
+ def word_count(st):
+    c=0
+    for word in st.lower().split():
+        if word=='dog':
+            c=c+1
+    return c
+    
+    
+    word_count('dog is dog is dog')
+    
+    
+ 
+ 
+ 
+ 
